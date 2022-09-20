@@ -1,0 +1,17 @@
+ version: '3.7'
+
+ services:
+   dash:
+     build: 
+       context: ./
+     hostname: dash
+     container_name: dash
+     restart: always
+     ports:
+       - 8050:8050
+     expose:
+       - 8050
+     networks:
+       - default
+     volumes:
+       - ./data/:/usr/src/data/:rw
