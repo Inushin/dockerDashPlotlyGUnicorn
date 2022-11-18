@@ -157,3 +157,4 @@ If you find any bug or just want to give your feedback (remember the ⭐ ^^), **
 ## Version control 📝
 
 - 0.0.0 - Repository created - 20/09/2022
+- 0.1.0 - Update README, create a separate branch for the Dockerfile's repo, and add custom image to the main branch - 18/11/2022
