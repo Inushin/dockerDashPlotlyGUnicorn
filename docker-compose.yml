@@ -2,8 +2,7 @@
 
  services:
    dash:
-     build: 
-       context: ./
+     image: inushin/dash-plotly
      hostname: dash
      container_name: dash
      restart: always
