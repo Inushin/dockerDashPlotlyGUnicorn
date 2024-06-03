@@ -136,7 +136,7 @@ Keep in mind that in our local machine, we do not need GUnicorn as an HTTP Serve
 
 3. Starts Docker's service: `service docker start`
 
-4. Starts Docker's service each time you run the SO: `chkconfig docker on`
+4. Starts Docker's service each time you run the SO: `sudo systemctl enable docker`
 
 ### Docker Compose V2 installation
 
